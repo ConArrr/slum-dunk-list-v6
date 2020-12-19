@@ -2,6 +2,7 @@
 import React, { FC } from 'react'
 import { Helmet } from 'react-helmet'
 import { Container } from 'semantic-ui-react'
+import SchoolList from 'components/organisms/SchoolList'
 import './Home.css'
 
 const Home: FC = () => (
@@ -27,6 +28,7 @@ const Home: FC = () => (
         インターハイ後、3年生は赤木と木暮が引退し、三井のみ残留。新キャプテンにリョータが就任し、晴子を新たにマネージャーとして迎えるなど、チームは冬の選抜に向けて、新体制となる。流川は全日本ジュニアの代表に選ばれ、花道はリハビリを続けながら再びコートに立てる時を待つ。
       </p>
     </Container>
+    <SchoolList />
   </>
 )
 
